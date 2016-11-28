@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>StarBucks Coffee Company</title>
+		
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link href="bootstrap/css/style.css" rel="stylesheet">
+		<link rel="stylesheet"  href="font/css/font-awesome.min.css">
+		
+		
+	</head>
+	<body id="body">
+			
+		<div class="container" id="main">
+
+		<div class="navbar navbar-fixed-top" id="nav">
+			<div class="container">
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				
+				<a class="navbar-brand" href="#">
+					<img src="images/img1.jpg" alt="my logo" id="images"></a>
+				<div class="nav-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav" id="list">
+						<li class="active">
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="#">Coffee</a>
+						</li>
+						<li>
+							<a href="#">Tea</a>
+						</li>
+						<li>
+							<a href="#">Menu</a>
+						</li>
+					</ul>
+
+					<form class="navbar-form" id="form">
+						
+						<button><span class="glyphicon glyphicon-shopping-cart"></span></button><a href="#" id="icon">My Bag</a>
+						<span class="glyphicon glyphicon-map-marker"></span><a href="#mylocation" id="i1">Find a Store</a>
+						<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+						<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>	<span class="glyphicon glyphicon-user" id="sign"></span><a href="#" >Sign in</a>
+					</form><!-- ends navbar -->
+
+					<ul class="nav navbar-nav pull right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-cog"></span>Settings<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-refresh"></span>Update Profile</a>
+								</li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-wrench"></span>My Private</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-off"></span>Sign out</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+
+					</div><!-- navbar ends -->
+
+		</div><!-- navbar ends -->
+		
+		</div><!-- container ends -->
+
+	
+		
+		<div class="carousel slide" id="myCarousel">
+
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+						<div class="carousel-caption">
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					
+					<div class="item" id="slide2">
+						<div class="carousel-caption">
+							<h4>SUPPORT TEAM AND CENTRE</h4>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					
+					<div class="item" id="slide3">
+						<div class="carousel-caption">
+							<h4>BUCKS</h4>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+				</div><!-- carousel-inner -->
+				
+				<!-- Controls -->
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+			</div><!-- end myCarousel -->
+		<div class="row" id="bigCallout">
+			<div class="col-lg-12">
+				<div class="col-3">
+					<img src="images/reward.jpg" alt="starbucks rewards" id="reward">			
+				</div><!-- end col3 -->
+				<div class="col-9" id="page">
+					<h2>Make every sip more rewarding</h2>
+					<h4>Join Starbucks rewards to earn free drinks and food,get free refills,pay and order with your phone,and more.</h4>
+					<button type="button" class="btn btn-default">Join Now</button>
+					
+					<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Sign up</a>
+								
+								<div class="modal fade" id="myModal">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button class="close" data-dismiss="modal">&times;</button>
+												
+												<h4 class="modal-title">Sign Up</h4>
+											</div><!-- end modal-header -->
+											<div class="modal-body">
+																	
+												<h2>Sign Up</h2>
+												<hr>
+												
+												
+												<form class="form-horizontal">
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputName">UserName</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputName" placeholder="UserName" type="text">
+														</div>
+													</div>
+													
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+														</div>
+													</div>
+													
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputMessage"> New Password</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputMessage" placeholder="New Password" rows="3">
+														</div>
+													</div>
+															<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputMessage"> Confirm Password</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputMessage" placeholder="Confirm Password" rows="3">
+															</div>
+													</div>
+												</form>
+											</div><!-- end modal-body -->
+											
+											<div class="modal-footer">
+												<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Submit</button>
+											</div><!-- end modal-footer -->
+										</div><!-- end modal-content -->
+									</div><!-- end modal-dialog -->
+								</div><!-- end myModal -->
+				</div><!-- col9 ends -->
+			</div><!-- col_12 -->
+		</div><!-- bigcallout ends -->
+
+		<div class="jumbotron" id="featuresheading">
+			<div >	
+			<h2>ABOUT</h2>
+			<p>Starbucks Corporation is an American coffee company and coffeehouse chain. Starbucks was founded in Seattle, Washington in 1971. Today it operates 23,768 locations worldwide, including 13,107 (+170) in the United States, 2,204 (+86) in China, 1,418 (-12) in Canada, 1,160 (+2) in Japan and 872 in South Korea (bumping United Kingdom from 5th place) (Differences reflect growth since Jan 8, 2016).</p>	
+			<p>The first Starbucks opened in Seattle, Washington, on March 31, 1971,[citation needed] by three partners who met while they were students at the University of San Francisco:[14] English teacher Jerry Baldwin, history teacher Zev Siegl, and writer Gordon Bowker. The three were inspired to sell high-quality coffee beans and equipment by coffee roasting entrepreneur Alfred Peet after he taught them his style of roasting beans.[15] The company took the name of the chief mate in the book Moby-Dick: Starbuck, after considering "Cargo House" and "Pequod".</p>	
+			
+			</div>
+		</div><!-- featuresHeading ends -->
+		<div class="col-lg-12 col-xs-12">
+			<div class="col-lg-6 col-xs-12" id="mylocation">
+				<h4><span class="glyphicon glyphicon-map-marker"></span>Our Location</h4>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.098547464655!2d77.6395990148291!3d12.965545490859844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae141cc9568b2f%3A0x5ea273c914eac556!2sStarbucks+Coffee!5e0!3m2!1sen!2sin!4v1480314672363" width="560" height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+				<div class="col-lg-6 col-xs-12" id="myvideo">
+					<h4><span class="glyphicon glyphicon-film"></span>Our Video</h4>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/qrVh4LLLd2s" frameborder="0" allowfullscreen></iframe>
+					
+				</div>
+		</div>
+
+		<div class="col-lg-12 col-xs-12" id="image2">
+			<div class="col-lg-4 col-xs-12">
+				<img src="images/tea1.jpg">
+				<h3>Iced Tea</h3>
+			</div>
+			<div class="col-lg-4 col-xs-12">
+				<img src="images/tea2.jpg">
+				<h3>Green Tea</h3>
+			</div>
+			<div class="col-lg-4 col-xs-12">
+				<img src="images/tea3.jpg">
+				<h3>Brewed Tea</h3>
+			</div>
+		</div>
+		<div class="col-lg-12" id="image3">
+			<div class="col-lg-4 col-xs-12">
+				<img src="images/tea4.jpg">
+				<h3>Cinamon Tea</h3>
+			</div>
+			<div class="col-lg-4 col-xs-12">
+				<img src="images/tea5.jpg">
+				<h3>Black Tea</h3>
+			</div>
+			<div class="col-lg-4 col-xs-12">
+				<img src="images/tea6.jpg">
+				<h3>mint Tea</h3>
+			</div>
+			</div>
+			</div>
+	
+		<footer  class="col-lg-12 col-xs-12">
+			<section id="foot" class="col-lg-12 col-xs-12">
+				<div id="footer" class="col-lg-12 col-xs-12">
+					<h4>Follow us on</h4>
+						<a href="https://www.facebook.com"><i class="fa fa-facebook-square" aria-hidden="true" id="facebook"></i></a>
+						<a href="https://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true" id="twitter"></i>
+						<a href="https://plus.google.com"><i class="fa fa-google-plus" aria-hidden="true" id="google"></i>
+				</div>
+				<div class="col-lg-12 col-xs-12">
+					<div class="col-lg-3 col-xs-12">
+						<h3 class="col-lg-12">About</h3>
+							<div id="link" class="col-lg-12">
+								<p><a href="https://www.starbucks.com/about-us/company-information">our Company</a></p>
+								<p><a href="http://investor.starbucks.com/">Investor Relations</a></p>
+								<p><a href="http://news.starbucks.com/">Newsroom</a></p>
+							</div>
+					</div>
+					<div class="col-lg-3 col-xs-12">
+						<h3 class="col-lg-12">Carrer centre</h3>
+							<div id="link1" class="col-lg-12">
+								<p><a href="https://www.starbucks.com/careers/college-plan">College Plan</a></p>
+								<p><a href="https://www.starbucks.com/careers/current-partners">Current Partners</a></p>
+								<p><a href="https://www.starbucks.com/careers/retail-careers">Retail careers</a></p>
+							</div>
+					</div>
+					<div class="col-lg-3 col-xs-12">
+						<h3 class="col-lg-12">For Business</h3>
+							<div class="col-lg-12" id="link3">
+								<p><a href="https://www.starbucks.com/business/foodservice">Food service</a></p>
+								<p><a href="https://www.starbucks.com/business/suppliers">Suppliers</a></p>
+								<p><a href="https://www.starbucks.com/business/office-coffee">Office coffee</a></p>
+							</div>
+					</div>
+					<div class="col-lg-3  col-xs-12">
+						<h3 class="col-lg-12">Online Community</h3>
+							<div class="col-lg-12" id="link4">
+								<p><a href="http://www.twitter.com/starbucks/">Twitter</a></p>
+								<p><a href="https://instagram.com/starbucks/">Instagram</a></p>
+								<p><a href="https://www.linkedin.com/company/starbucks?utm_source=homepage&utm_medium=footer&utm_campaign=ev">LinkedIn</a></p>
+								<p><a href="http://www.youtube.com/starbucks">You Tube</a></p>
+							</div>
+					</div>
+				</div>
+			</section>
+		
+		</footer><!-- footer ends -->
+			
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+	
+	</body>
+</html>
+
